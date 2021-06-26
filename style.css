@@ -1,0 +1,44 @@
+.container {
+    display: block;
+    margin: 120px auto;
+    text-align:center;
+    font-family: Helvetica;
+  }
+  
+  .container .game-area {
+    display: block;
+    font-size: 40px;
+    color: #6C2CF5;
+    padding: 20px;
+  }
+  
+  .container select {
+    padding: 10px;
+    border: 2px solid #F5852C;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 200px;
+    outline: none;
+  }
+  
+  .container button {
+    padding: 10px;
+    border: 2px solid #20DC70;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #20DC70;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .container button:hover {
+      background: #20DC20;
+  }
+  
+  .container .result {
+    display: block;
+    padding: 20px;
+    font-size: 30px;
+  }

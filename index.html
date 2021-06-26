@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+<div class="container">
+  
+  <div class="game-area">
+    <span class="computer">...</span> x <span class="person">Rock</span>
+  </div>
+  
+  <select onChange="chooseMovement(this.value)">
+    <option value="0">Rock</option>
+    <option value="1">Paper</option>
+    <option value="2">Scissors</option>
+  </select>
+
+  <button onClick = "playGame()">
+   Oyna
+  </button>
+  
+  <span class="result">
+  </span>
+  
+  
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
